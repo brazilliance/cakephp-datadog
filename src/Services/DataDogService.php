@@ -7,6 +7,8 @@ class DataDogService
 {
     public function info()
     {
-        echo 'Let\'s make sure this is working!';
+        $client = new GuzzleHttp();
+        debug('I can reach in and get stuff from the DataDog service.');
+        debug($client);
     }
 }
