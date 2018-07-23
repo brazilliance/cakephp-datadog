@@ -1,5 +1,5 @@
 <?php
-namespace CakePHP_DataDog\App\Services;
+namespace CakePHP_DataDog\Services;
 
 use GuzzleHttp;
 
