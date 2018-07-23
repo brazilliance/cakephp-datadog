@@ -10,6 +10,6 @@ class Plugin extends BasePlugin
 {
     public function info()
     {
-        echo 'Let\'s make sure this is working!';
+        debug('Let\'s make sure this is working!');
     }
 }
