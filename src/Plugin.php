@@ -1,18 +1,16 @@
 <?php
-namespace CakePHP_DataDog;
+namespace DataDog;
 
 use Cake\Core\BasePlugin;
+use Cake\Core\PluginApplicationInterface;
 
 /**
  * Plugin class for CakePHP 3.6.0 plugin collection.
  */
 class Plugin extends BasePlugin
 {
-    public function info()
+    public function bootstrap(PluginApplicationInterface $app)
     {
-        debug('Let\'s make sure this is working!');
-        //$plugin = new DataDogService();
-        //$plugin->info();
-
+        parent::bootstrap($app);
     }
 }
